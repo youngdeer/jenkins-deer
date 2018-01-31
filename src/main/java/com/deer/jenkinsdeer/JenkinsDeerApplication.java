@@ -18,4 +18,9 @@ public class JenkinsDeerApplication {
 	public String hellodeer(@RequestParam String name) {
 		return "hi deer,i am "+name;
 	}
+	
+	@RequestMapping("/cayla")
+	public String cayla() {
+		return "cayla i love you";
+	}
 }
